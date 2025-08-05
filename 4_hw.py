@@ -81,49 +81,6 @@ print(example.a, '-', example.b, '=', example.subtraction())
 # Также на кнопку можно нажать - реализуйте метод. Метод возвращает текст “Клик по кнопке { ТЕКСТ КНОПКИ }”
 # b. выведите текст для каждой кнопки
 # c. вызовите “Клик” для каждой кнопки
-
-# class Elements:
-#     def __init__(self, text, butt_type = "Кнопка", loc = None):
-#         self.text = text
-#         self.butt_type = butt_type
-#         self.loc = loc
-#
-#     def click(self):
-#         return print(f"Клик по кнопке {self.text}")
-#
-# # Создаем объекты для каждой кнопки
-# text_box = Elements('Text Box')
-# check_box = Elements('Check Box')
-# radio_button = Elements('Radio Button')
-# web_tables = Elements('Web Tables')
-# buttons = Elements('Buttons')
-# links = Elements('Links')
-# broken_links_images = Elements('Broken Links - Images')
-# upload_and_download = Elements('Upload and Download')
-# dynamic_properties = Elements('Dynamic Properties')
-#
-# # Выводим текст для каждой кнопки
-# print(text_box.text)
-# print(check_box.text)
-# print(radio_button.text)
-# print(web_tables.text)
-# print(buttons.text)
-# print(links.text)
-# print(broken_links_images.text)
-# print(upload_and_download.text)
-# print(dynamic_properties.text)
-#
-# # "Кликаем" по каждой кнопке
-# text_box.click()
-# check_box.click()
-# radio_button.click()
-# web_tables.click()
-# buttons.click()
-# links.click()
-# broken_links_images.click()
-# upload_and_download.click()
-# dynamic_properties.click()
-
 # Оптимизированный вариант
 class Elements:
     def __init__(self, text, butt_type = "Кнопка", loc = None):
